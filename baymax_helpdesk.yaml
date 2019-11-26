@@ -24,6 +24,8 @@ branches:
     targetId: suggestion
   - message: "I have looked at **all** the options, and none of them helped me."
     targetId: support-role
+  - message: "Go back to the previous menu"
+    targetId: root
 
 ---
 id: bot-broken
@@ -37,6 +39,8 @@ branches:
     targetId: bot-broken-blank-messages
   - message: "Something else is broken"
     targetId: support-role
+  - message: "Go back to the previous menu"
+    targetId: bot-root
 
 ---
 id: bot-broken-not-online
@@ -46,6 +50,8 @@ branches:
     targetId: bot-invite
   - message: "Wolfia is in my server, but is shown as offline."
     targetId: bot-broken-offline
+  - message: "Go back to the previous menu"
+    targetId: bot-broken
 
 ---
 id: bot-invite
@@ -85,6 +91,8 @@ branches:
     targetId: bot-setting-prefix
   - message: "Restrict it to a single channel"
     targetId: bot-setting-restrict
+  - message: "Go back to the previous menu"
+    targetId: bot-root
 
 ---
 id: bot-setting-language
@@ -106,6 +114,8 @@ branches:
     targetId: bot-invite
   - message: "What is ⲀWolfia?"
     targetId: bot-question-alpha-wolfia
+  - message: "Go back to the previous menu"
+    targetId: bot-root
 
 ---
 id: bot-question-alpha-wolfia
@@ -135,6 +145,8 @@ branches:
     targetId: suggestion
   - message: "I have looked at **all** the options, and none of them helped me."
     targetId: support-role
+  - message: "Go back to the previous menu"
+    targetId: root
 
 ---
 id: report-user
