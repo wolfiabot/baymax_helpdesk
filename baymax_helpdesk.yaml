@@ -79,12 +79,18 @@ https://imgur.com/a/5uoVsgl"
 id: bot-setting
 title: "What setting of Wolfia do you want to change?"
 branches:
+  - message: "The game/mode"
+    targetId: bot-setting-game
   - message: "The language"
     targetId: bot-setting-language
   - message: "The prefix"
     targetId: bot-setting-prefix
   - message: "Restrict it to a single channel"
     targetId: bot-setting-restrict
+
+---
+id: bot-setting-game
+title: "Use w.setup to change the game or mode. See https://wolfia.party for more info."
 
 ---
 id: bot-setting-language
