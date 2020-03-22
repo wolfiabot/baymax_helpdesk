@@ -90,7 +90,7 @@ branches:
 
 ---
 id: bot-setting-game
-title: "Use w.setup to change the game or mode. See https://wolfia.party for more info."
+title: "Use w.setup to change the game or mode. Expamples: 'w.setup game mafia' 'w.setup mode wild' Use w.help setup for more info."
 
 ---
 id: bot-setting-language
