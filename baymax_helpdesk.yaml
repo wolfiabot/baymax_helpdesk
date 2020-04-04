@@ -9,7 +9,6 @@ branches:
 
 
 ### Bot stuff
-
 ---
 id: bot-root
 title: "You need help with Wolfia the bot. What's wrong?"
@@ -81,16 +80,21 @@ title: "What setting of Wolfia do you want to change?"
 branches:
   - message: "The game/mode"
     targetId: bot-setting-game
+  - message: "The channel settings."
+    targetId: bot-channel-setting
   - message: "The language"
     targetId: bot-setting-language
   - message: "The prefix"
     targetId: bot-setting-prefix
   - message: "Restrict it to a single channel"
     targetId: bot-setting-restrict
-
 ---
 id: bot-setting-game
 title: "Use w.setup to change the game or mode. Expamples: 'w.setup game mafia' 'w.setup mode wild' Use w.help setup for more info."
+
+---
+id: bot-channel-setting
+title:  "Channel settings - Use w.channelsettings (or w.cs) to change the channel settings. Examples: 'w.channelsettings tagcolldown 10' 'w.cs auto-out true' Use w.help channelsettings for more info."
 
 ---
 id: bot-setting-language
